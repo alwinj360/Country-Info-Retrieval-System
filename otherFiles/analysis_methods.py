@@ -53,6 +53,7 @@ def countryIRSystem_analysis(rand_file_name, no_queries, no_entries):
     end_time = time.time()
     # calculating how long it took to run the 1000 queries
     print("No of entries: "+ str(no_entries))
+    print("No of queries: "+ str(no_queries))
     print("searching " + str(no_queries) + " queries using the List based implementation: --- %s seconds ---" % (end_time - start_time))  
 
     # Starting the time calculation for the BST Dict based implementation
