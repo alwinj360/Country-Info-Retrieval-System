@@ -36,6 +36,7 @@ def generate_data_csv(rand_file_name, no_entries):
   data.sort()
   with open(rand_file_name,'w', encoding='UTF8', newline='') as target:
     writefile = csv.writer(target)
+    writefile.writerow(header)
     for _, line in data:
         writefile.writerow( line )
 
