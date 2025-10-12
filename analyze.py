@@ -1,4 +1,4 @@
-from otherFiles.randomfiles import * 
+from otherFiles.randomFiles import * 
 from otherFiles.analysis_methods import *
 
 
