@@ -2,6 +2,16 @@
 
 A Python-based information retrieval system that stores and queries development indicator data for 20 countries. The system implements multiple data structures (Binary Search Tree, Hash Table, Linked List, Sorted List) and provides a command-line interface for efficient data retrieval and analysis.
 
+![Given country all indicators](screenshots/given-country.png)
+*All indicators for a given country.*
+
+![Max and min countries for a given indicator](screenshots/max-and-min.png)
+*Countries with maximum and minimum values for a given indicator*
+
+![All countries' data for a given indicator part 1](screenshots/given-indicator-1.png)
+![All countries' data for a given indicator part 2](screenshots/given-indicator-2.png)
+*All countries' data for a given indicator*
+
 ## Quick Start
 
 ```bash
